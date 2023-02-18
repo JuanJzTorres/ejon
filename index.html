@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicios y Evaluaciones para Física General: Fenómenos Ondulatorios</title>
+<style>
+body {
+background-color: lightblue;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("code_waves.jpg");
+color: white;
+}
+
+label {
+display: block;
+}
+
+input {
+width: 30px;
+margin-left: 20px;
+}
+
+h2 {
+clear: both;
+padding-top: 20px;
+}
+
+button {
+width: 100px;
+margin-top: 20px;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+<h1>Fenómenos Ondulatorios</h1>
+</div>
+<form id="form1">
+
+
+<h1>Presentación</h1>
+<p>Estos ejercicios tienen como finalidad apoyar a estudiantes del primer año universitario en un curso de Física General. Puede servir también como apoyo para recordar y reforzar los conocimientos de física adquiridos previamente en el nivel de Bachillerato.</p>
+
+<p>Esta serie de ejercicios corresponde a la unidad 'Fenómenos Ondulatorios'. </p>
+
+<p>Autor: Juan José Jiménez Torres </p>
+
+
+<p> Los ejercicios y sus respectivas figuras, se encuentran basados en ejercicios planteados en distintas fuentes bibliográficas como los textos de Schad (1996), Resnick y Halliday (1981), Tippens (2001), Benson (1999, 1991) y Hewitt (1999). Estos ejercicios de física también fueron empleados para el trabajo que desarrollé en Jiménez-Torres (2006). </p>
+
+
+<A HREF="https://arxiv.org/abs/2302.08006"> Artículo publicado en arXiv: Physics Education (physics.ed-ph) </A>
+
+
+
+
+
+
+
+
+
+
+<h2>1) ¿Qué es lo que las ondas transportan? </h2>
+<label for="sub_string"><input type="radio" name="p1" value="0" id="sub_string"/> a) Carga eléctrica </label>
+<label for="sub_join"><input type="radio" name="p1" value="0" id="sub_join"/> b) Masa </label>
+<label for="sub_info"><input type="radio" name="p1" value="0" id="sub_info" />  c) Sonido </label>
+<label for="sub_condition"><input type="radio" name="p1" value="10" id="sub_condition" /> d) Energía </label>
+<label for="sub_condition"><input type="radio" name="p1" value="0" id="sub_condition" /> e) Calor  </label>
+
+
+<h2>2) Es el medio de propagación de las ondas mecánicas transversales </h2>
+<label for="sub_string"><input type="radio" name="p2" value="0" id="sub_string"/> a) Sólidos cristalinos </label>
+<label for="sub_join"><input type="radio" name="p2" value="10" id="sub_join"/> b) Sólidos y materiales semisólidos </label>
+<label for="sub_info"><input type="radio" name="p2" value="0" id="sub_info" />  c) Líquidos </label>
+<label for="sub_condition"><input type="radio" name="p2" value="0" id="sub_condition" /> d) Líquidos y gases </label>
+<label for="sub_condition"><input type="radio" name="p2" value="0" id="sub_condition" /> e) Gases </label>
+
+
+<h2>3) En las ondas mecánicas transversales, la forma en la que se mueven las partículas del medio es </h2>
+<label for="sub_string"><input type="radio" name="p3" value="0" id="sub_string"/> a) En círculos </label>
+<label for="sub_join"><input type="radio" name="p3" value="0" id="sub_join"/> b) En trayectorias elípticas </label>
+<label for="sub_info"><input type="radio" name="p3" value="0" id="sub_info" />  c) Paralelas a la dirección de propagación </label>
+<label for="sub_condition"><input type="radio" name="p3" value="10" id="sub_condition" /> d) Perpendiculares a la dirección de propagación  </label>
+<label for="sub_condition"><input type="radio" name="p3" value="0" id="sub_condition" /> e) En trayectorias rectas </label>
+
+
+<h2>4) Las ondas de agua son de tipo </h2>
+<label for="sub_string"><input type="radio" name="p4" value="0" id="sub_string"/> a) Longitudinales </label>
+<label for="sub_join"><input type="radio" name="p4" value="0" id="sub_join"/> b) Transversales </label>
+<label for="sub_info"><input type="radio" name="p4" value="10" id="sub_info" />  c) Longitudinales y transversales </label>
+<label for="sub_condition"><input type="radio" name="p4" value="0" id="sub_condition" /> d) Electromagnéticas </label>
+<label for="sub_condition"><input type="radio" name="p4" value="0" id="sub_condition" /> e) Sonoras </label>
+
+
+<h2>5) Corresponde a la frecuencia de una onda sonora audible </h2>
+<label for="sub_string"><input type="radio" name="p5" value="0" id="sub_string"/> a) 0.1 Hz </label>
+<label for="sub_join"><input type="radio" name="p5" value="10" id="sub_join"/> b) 100 Hz </label>
+<label for="sub_info"><input type="radio" name="p5" value="0" id="sub_info" /> c) 1 MHz  </label>
+<label for="sub_condition"><input type="radio" name="p5" value="0" id="sub_condition" /> d) 100 MHz </label>
+<label for="sub_condition"><input type="radio" name="p5" value="0" id="sub_condition" /> e) 1 GHz </label>
+
+
+<h2>6) Las ondas sonoras son ondas del tipo</h2>
+<label for="sub_string"><input type="radio" name="p6" value="10" id="sub_string"/> a) Longitudinal </label>
+<label for="sub_join"><input type="radio" name="p6" value="0" id="sub_join"/> b) Transversal </label>
+<label for="sub_info"><input type="radio" name="p6" value="0" id="sub_info" />  c) Parcialmente longitudinal y parcialmente transversal </label>
+<label for="sub_condition"><input type="radio" name="p6" value="0" id="sub_condition" /> d) Electromagnética </label>
+<label for="sub_condition"><input type="radio" name="p6" value="0" id="sub_condition" /> e) Parcialmente longitudinal y parcialmente electromagnética </label>
+
+
+<h2>7) Con relación a la velocidad de las ondas, las ondas de radio se desplazan </h2>
+<label for="sub_string"><input type="radio" name="p7" value="0" id="sub_string"/> a) Mucho más lento que la luz </label>
+<label for="sub_join"><input type="radio" name="p7" value="0" id="sub_join"/> b) Ligeramente más lento que la luz </label>
+<label for="sub_info"><input type="radio" name="p7" value="10" id="sub_info" /> c) A la misma velocidad de la luz  </label>
+<label for="sub_condition"><input type="radio" name="p7" value="0" id="sub_condition" /> d) Más rápido que la luz </label>
+<label for="sub_condition"><input type="radio" name="p7" value="0" id="sub_condition" /> e) A la velocidad del sonido  </label>
+
+
+<h2>8) Las ondas de sonido se desplazan más rápidamente en </h2>
+<label for="sub_string"><input type="radio" name="p8" value="0" id="sub_string"/> a) El vacío </label>
+<label for="sub_join"><input type="radio" name="p8" value="0" id="sub_join"/> b) Gases  </label>
+<label for="sub_info"><input type="radio" name="p8" value="0" id="sub_info" />  c) Líquidos </label>
+<label for="sub_condition"><input type="radio" name="p8" value="10" id="sub_condition" /> d) Sólidos </label>
+<label for="sub_condition"><input type="radio" name="p8" value="0" id="sub_condition" /> e) Fluidos </label>
+
+
+
+<h2>9) Las ondas con amplitudes mayores están relacionadas con </h2>
+<label for="sub_string"><input type="radio" name="p9" value="0" id="sub_string"/> a) Frecuencia menor </label>
+<label for="sub_join"><input type="radio" name="p9" value="0" id="sub_join"/> b) Velocidad mayor </label>
+<label for="sub_info"><input type="radio" name="p9" value="0" id="sub_info" />  c) Velocidad menor </label>
+<label for="sub_condition"><input type="radio" name="p9" value="10" id="sub_condition" /> d) Más energía </label>
+<label for="sub_condition"><input type="radio" name="p9" value="0" id="sub_condition" /> e) Menos energía </label>
+
+
+<h2>10) Calcular la razón entre la intensidad del sonido de una banda de rock con un nivel de intensidad de 115 dB y la intensidad del sonido de una conversación normal que tiene un nivel de intensidad de 45 db. </h2>
+<label for="sub_string"><input type="radio" name="p10" value="0" id="sub_string"/> a) 2.55 veces </label>
+<label for="sub_join"><input type="radio" name="p10" value="0" id="sub_join"/> b) 70 veces </label>
+<label for="sub_info"><input type="radio" name="p10" value="0" id="sub_info" />  c) 128 veces </label>
+<label for="sub_condition"><input type="radio" name="p10" value="0" id="sub_condition" /> d) 10 000 veces </label>
+<label for="sub_condition"><input type="radio" name="p10" value="10" id="sub_condition" /> e) 10 000 000 veces </label>
+
+
+<h2>11) El eco es un fenómeno acústico que se debe a la </h2>
+<label for="sub_string"><input type="radio" name="p11" value="10" id="sub_string"/> a) Reflexión de las ondas sonoras </label>
+<label for="sub_join"><input type="radio" name="p11" value="0" id="sub_join"/> b) Refracción de las ondas sonoras </label>
+<label for="sub_info"><input type="radio" name="p11" value="0" id="sub_info" />  c) Difracción de las ondas sonoras </label>
+<label for="sub_condition"><input type="radio" name="p11" value="0" id="sub_condition" /> d) Interferencia de las ondas sonoras </label>
+<label for="sub_condition"><input type="radio" name="p11" value="0" id="sub_condition" /> e) Reflexión e interferencia de las ondas sonoras </label>
+
+
+<h2>12) El efecto Doppler es un fenómeno que implica un cambio o variación de la </h2>
+<label for="sub_string"><input type="radio" name="p12" value="0" id="sub_string"/> a) Intensidad </label>
+<label for="sub_join"><input type="radio" name="p12" value="10" id="sub_join"/> b) Frecuencia </label>
+<label for="sub_info"><input type="radio" name="p12" value="0" id="sub_info" />  c) Amplitud </label>
+<label for="sub_condition"><input type="radio" name="p12" value="0" id="sub_condition" /> d) Dirección </label>
+<label for="sub_condition"><input type="radio" name="p12" value="0" id="sub_condition" /> e) Velocidad </label>
+
+
+<h2>13) Los radares son sistemas de detección de objetos que operan bajo el principio de la </h2>
+<label for="sub_string"><input type="radio" name="p13" value="0" id="sub_string"/> a) Reflexión y refracción </label>
+<label for="sub_join"><input type="radio" name="p13" value="0" id="sub_join"/> b) Reflexión y difracción </label>
+<label for="sub_info"><input type="radio" name="p13" value="0" id="sub_info" /> c) Difracción y el efecto Doppler  </label>
+<label for="sub_condition"><input type="radio" name="p13" value="10" id="sub_condition" /> d) Reflexión y el efecto Doppler </label>
+<label for="sub_condition"><input type="radio" name="p13" value="0" id="sub_condition" /> e) Refracción y el efecto Doppler </label>
+
+
+<h2>14) La energía es una de las características de la morfología de una onda. </h2>
+<label for="sub_string"><input type="radio" name="p14" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p14" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>15) De las siguientes opciones, ¿Cuál contiene características de la morfología o estructura de una onda?. </h2>
+<label for="sub_string"><input type="radio" name="p15" value="0" id="sub_string"/> a) Cresta, valle, velocidad </label>
+<label for="sub_join"><input type="radio" name="p15" value="0" id="sub_join"/> b) Longitud de onda, cresta, valle </label>
+<label for="sub_info"><input type="radio" name="p15" value="0" id="sub_info" />  c) Energía, velocidad, amplitud </label>
+<label for="sub_condition"><input type="radio" name="p15" value="10" id="sub_condition" /> d) Velocidad, longitud de onda, amplitud </label>
+<label for="sub_condition"><input type="radio" name="p15" value="0" id="sub_condition" /> e) Cresta, valle, amplitud </label>
+
+<h2>16) Las ondas mecánicas pueden viajar en el vacío, como lo puede hacer una onda electromagnética como la luz. </h2>
+<label for="sub_string"><input type="radio" name="p16" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p16" value="0" id="sub_join"/> Verdadero. </label>
+
+
+<h2>17) Corresponde a la distancia vertical entre el punto medio de una onda a su cresta o valle. </h2>
+<label for="sub_string"><input type="radio" name="p17" value="0" id="sub_string"/> a) Longitud de onda </label>
+<label for="sub_join"><input type="radio" name="p17" value="0" id="sub_join"/> b) Cresta </label>
+<label for="sub_info"><input type="radio" name="p17" value="10" id="sub_info" />  c) Amplitud  </label>
+<label for="sub_condition"><input type="radio" name="p17" value="0" id="sub_condition" /> d) Valle </label>
+<label for="sub_condition"><input type="radio" name="p17" value="0" id="sub_condition" /> e) Frecuencia </label>
+
+
+
+<h2>18) Corresponde a la distancia entre dos puntos idénticos sucesivos de una onda. </h2>
+<label for="sub_string"><input type="radio" name="p18" value="10" id="sub_string"/> a) Longitud de onda </label>
+<label for="sub_join"><input type="radio" name="p18" value="0" id="sub_join"/> b) Cresta </label>
+<label for="sub_info"><input type="radio" name="p18" value="0" id="sub_info" /> c) Amplitud   </label>
+<label for="sub_condition"><input type="radio" name="p18" value="0" id="sub_condition" /> d) Valle </label>
+<label for="sub_condition"><input type="radio" name="p18" value="0" id="sub_condition" /> e) Frecuencia </label>
+
+
+
+<h2>19) Corresponde al número de ondas que pasan por una posición o punto determinado en 1 segundo. </h2>
+<label for="sub_string"><input type="radio" name="p19" value="0" id="sub_string"/> a) Longitud de onda </label>
+<label for="sub_join"><input type="radio" name="p19" value="0" id="sub_join"/> b) Cresta </label>
+<label for="sub_info"><input type="radio" name="p19" value="0" id="sub_info" />  c) Amplitud  </label>
+<label for="sub_condition"><input type="radio" name="p19" value="0" id="sub_condition" /> d) Valle </label>
+<label for="sub_condition"><input type="radio" name="p19" value="10" id="sub_condition" /> e) Frecuencia </label>
+
+
+<h2>20) El resultado del producto de la frecuencia de una onda por su longitud de onda es igual a  </h2>
+<label for="sub_string"><input type="radio" name="p20" value="0" id="sub_string"/> a) Potencia </label>
+<label for="sub_join"><input type="radio" name="p20" value="10" id="sub_join"/> b) Velocidad  </label>
+<label for="sub_info"><input type="radio" name="p20" value="0" id="sub_info" />  c) Amplitud  </label>
+<label for="sub_condition"><input type="radio" name="p20" value="0" id="sub_condition" /> d) Energía </label>
+<label for="sub_condition"><input type="radio" name="p20" value="0" id="sub_condition" /> e) Desplazamiento </label>
+
+
+<h2>21) Si el valor de la frecuencia de una onda se triplica, ¿qué le ocurrirá al valor de su periodo?. </h2>
+<label for="sub_string"><input type="radio" name="p21" value="0" id="sub_string"/> a) Se mantiene constante </label>
+<label for="sub_join"><input type="radio" name="p21" value="0" id="sub_join"/> b) Aumenta ligeramente </label>
+<label for="sub_info"><input type="radio" name="p21" value="0" id="sub_info" />  c) Disminuye  ligeramente </label>
+<label for="sub_condition"><input type="radio" name="p21" value="0" id="sub_condition" /> d) Aumenta el triple </label>
+<label for="sub_condition"><input type="radio" name="p21" value="10" id="sub_condition" /> e) Disminuye a un tercio </label>
+
+
+
+<h2>22) Un edificio se balancea de un lado a otro con una frecuencia de 0.1 Hz. ¿Cuál es el periodo para esta frecuencia?. </h2>
+<label for="sub_string"><input type="radio" name="p22" value="0" id="sub_string"/> a)  0.1 s </label>
+<label for="sub_join"><input type="radio" name="p22" value="0" id="sub_join"/> b) 1 s </label>
+<label for="sub_info"><input type="radio" name="p22" value="10" id="sub_info" />  c) 10 s </label>
+<label for="sub_condition"><input type="radio" name="p22" value="0" id="sub_condition" /> d) 100 s </label>
+<label for="sub_condition"><input type="radio" name="p22" value="0" id="sub_condition" /> e) 1000 s </label>
+
+
+<h2>23) ¿Cuál es la velocidad de un tren que tiene vagones de 10 m de longitud cada uno, y que pasa por una estación determinada a razón de dos vagones por segundo?. </h2>
+<label for="sub_string"><input type="radio" name="p23" value="0" id="sub_string"/> a) 2 m/s </label>
+<label for="sub_join"><input type="radio" name="p23" value="0" id="sub_join"/> b) 5 m/s </label>
+<label for="sub_info"><input type="radio" name="p23" value="0" id="sub_info" />  c) 10 m/s </label>
+<label for="sub_condition"><input type="radio" name="p23" value="10" id="sub_condition" /> d) 20 m/s </label>
+
+<label for="sub_condition"><input type="radio" name="p23" value="0" id="sub_condition" /> e) 40 m/s </label>
+
+
+<h2>24) Si una onda tiene una frecuencia de 3 Hz y una longitud de onda de 2 metros, ¿cuál es su velocidad?. </h2>
+<label for="sub_string"><input type="radio" name="p24" value="0" id="sub_string"/> a) 2/3 m/s </label>
+<label for="sub_join"><input type="radio" name="p24" value="10" id="sub_join"/> b) 6 m/s </label>
+<label for="sub_info"><input type="radio" name="p24" value="0" id="sub_info" /> c) 3/2 m/s  </label>
+<label for="sub_condition"><input type="radio" name="p24" value="0" id="sub_condition" /> d) 5 m/s </label>
+<label for="sub_condition"><input type="radio" name="p24" value="0" id="sub_condition" /> e) 1 m/s </label>
+
+
+
+<h2>25) Una onda transversal tiene una longitud de onda de 30 cm y vibra con una frecuencia de 420 Hz. ¿Cuál es la velocidad de esta onda? </h2>
+<label for="sub_string"><input type="radio" name="p26" value="0" id="sub_string"/> a) 12600 m/s </label>
+<label for="sub_join"><input type="radio" name="p26" value="10" id="sub_join"/> b) 126 m/s </label>
+<label for="sub_info"><input type="radio" name="p26" value="0" id="sub_info" /> c) 14 m/s  </label>
+<label for="sub_condition"><input type="radio" name="p26" value="0" id="sub_condition" /> d) 1400 m/s </label>
+<label for="sub_condition"><input type="radio" name="p26" value="0" id="sub_condition" /> e) 450 m/s </label>
+
+
+<h2>26) Una onda longitudinal tiene una frecuencia de 400 Hz y una velocidad de 60 m/s. ¿Cuál es su longitud de onda?. </h2>
+<label for="sub_string"><input type="radio" name="p28" value="10" id="sub_string"/> a) 0.15 m </label>
+<label for="sub_join"><input type="radio" name="p28" value="0" id="sub_join"/> b) 6.67 m </label>
+<label for="sub_info"><input type="radio" name="p28" value="0" id="sub_info" />  c) 460 m </label>
+<label for="sub_condition"><input type="radio" name="p28" value="0" id="sub_condition" /> d) 340 m </label>
+<label for="sub_condition"><input type="radio" name="p28" value="0" id="sub_condition" /> e) 24000 m </label>
+
+
+<h2>27) Se tiene una onda en el agua que oscila de arriba a abajo dos veces por segundo y la distancia entre dos crestas sucesivas es de 1.5 m, ¿cuál es la velocidad de esta onda?. </h2>
+<label for="sub_string"><input type="radio" name="p29" value="0" id="sub_string"/> a) 0.75 m/s </label>
+<label for="sub_join"><input type="radio" name="p29" value="0" id="sub_join"/> b) 3.5 m/s </label>
+<label for="sub_info"><input type="radio" name="p29" value="0" id="sub_info" />  c) 1.33 m/s </label>
+<label for="sub_condition"><input type="radio" name="p29" value="0" id="sub_condition" /> d) 0.5 m/s </label>
+<label for="sub_condition"><input type="radio" name="p29" value="10" id="sub_condition" /> e) 3 m/s </label>
+
+
+<h2>28) ¿Cuál es la longitud de onda sonora que tiene una frecuencia de 340 Hz? Asumir que la velocidad del sonido en el aire es de 340 m/s. </h2>
+<label for="sub_string"><input type="radio" name="p30" value="0" id="sub_string"/> a) 0 m </label>
+<label for="sub_join"><input type="radio" name="p30" value="10" id="sub_join"/> b) 1 m </label>
+<label for="sub_info"><input type="radio" name="p30" value="0" id="sub_info" />  c) 340 m </label>
+<label for="sub_condition"><input type="radio" name="p30" value="0" id="sub_condition" /> d) 680 m </label>
+<label for="sub_condition"><input type="radio" name="p30" value="0" id="sub_condition" /> e) 115600 m </label>
+
+
+
+<h2>29) Cuando una pulsación se mueve a lo largo de una cuerda y alcanza uno de sus extremos, se refleja. Si el extremo está fijo (por ejemplo una pared) como se muestra en la figura, la pulsación regresa invertida. </h2>
+<IMG SRC="ondas_31.jpeg" WIDTH=475 HEIGHT=86>
+<label for="sub_string"><input type="radio" name="p31" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p31" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+
+<h2>30) Cuando una pulsación se mueve a lo largo de una cuerda y alcanza uno de sus extremos, se refleja. Si el extremo está libre (se puede estudiar el movimiento del extremo libre de una cuerda amarrándose a un anillo que se mueve sobre una varilla) como se ve en la figura, la pulsación que se refleja no será invertida. </h2>
+<IMG SRC="ondas_32.jpeg" WIDTH=475 HEIGHT=86>
+<label for="sub_string"><input type="radio" name="p32" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p32" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>31) Cuando dos ondas mecánicas que son generadas por dos fuentes distintas y alcanzan un punto determinado al mismo tiempo producen patrones como el mostrado en la figura. Este fenómeno corresponde a la </h2>
+<IMG SRC="ondas_33.jpg" WIDTH=340 HEIGHT=399>
+<label for="sub_string"><input type="radio" name="p33" value="0" id="sub_string"/> a) Reflexión </label>
+<label for="sub_join"><input type="radio" name="p33" value="0" id="sub_join"/> b) Refracción </label>
+<label for="sub_info"><input type="radio" name="p33" value="0" id="sub_info" />  c) Difracción </label>
+<label for="sub_condition"><input type="radio" name="p33" value="10" id="sub_condition" /> d) Interferencia </label>
+<label for="sub_condition"><input type="radio" name="p33" value="0" id="sub_condition" /> e) Resonancia </label>
+
+
+<h2>32) Si dos o más ondas existen simultáneamente en el mismo medio, el desplazamiento resultante en cualquier punto y en cualquier instante corresponde a la suma algebraica de los desplazamientos de cada una de las ondas. Esto es una consecuencia de </h2>
+<label for="sub_string"><input type="radio" name="p34" value="0" id="sub_string"/> a) La interferencia constructiva </label>
+<label for="sub_join"><input type="radio" name="p34" value="0" id="sub_join"/> b) La interferencia destructiva </label>
+<label for="sub_info"><input type="radio" name="p34" value="10" id="sub_info" /> c) El principio de superposición  </label>
+<label for="sub_condition"><input type="radio" name="p34" value="0" id="sub_condition" /> d) La resonancia </label>
+<label for="sub_condition"><input type="radio" name="p34" value="0" id="sub_condition" /> e) La refracción </label>
+
+
+
+<h2>33) Seleccionar la opción donde se listan 3 instrumentos que emplean aplicaciones de los fenómenos ondulatorios acústicos. </h2>
+<label for="sub_string"><input type="radio" name="p36" value="0" id="sub_string"/> a) Telescopios, radares, sonar </label>
+<label for="sub_join"><input type="radio" name="p36" value="0" id="sub_join"/> b) Telescopios, ultrasonido, sonar </label>
+<label for="sub_info"><input type="radio" name="p36" value="10" id="sub_info" />  c) Ultrasonido, sonar, microscopio acústico </label>
+<label for="sub_condition"><input type="radio" name="p36" value="0" id="sub_condition" /> d) Ultrasonido, radares, telescopios </label>
+<label for="sub_condition"><input type="radio" name="p36" value="0" id="sub_condition" /> e) Ultrasonido, telescopios, microscopio acústico </label>
+
+
+
+
+<h1><h1>→Fin de las preguntas</h1>
+
+<p>Antes de dar click en el botón para calificar, por favor revise que todas sus respuestas estén seleccionadas. 
+
+<p>En caso de que alguna o algunas preguntas queden sin responder, el sistema "borrará" todas las respuestas seleccionadas. Para corregir esta situación, es suficiente con regresar a la página dando click en el botón ← (regresar una página) y ahí estarán todas las opciones seleccionadas sin ningún problema, sin perderse y como habían sido seleccionadas.
+
+<p>Si es posible, guarde o tenga anotadas sus respuestas en un lugar seguro. </p>
+
+<button type="submit" value="Submit">Calificar</button>
+
+</form>
+
+
+<p>En escala de 0 a 10, la calificación es: <span id="grade">__</span></p> 
+<p id="grade2"></p>
+
+
+
+<script>
+document.getElementById("form1").onsubmit=function() {
+              p1 = parseInt(document.querySelector('input[name = "p1"]:checked').value);
+	    p2 = parseInt(document.querySelector('input[name = "p2"]:checked').value);
+	    p3 = parseInt(document.querySelector('input[name = "p3"]:checked').value);
+	    p4 = parseInt(document.querySelector('input[name = "p4"]:checked').value);
+	    p5 = parseInt(document.querySelector('input[name = "p5"]:checked').value);
+	    p6 = parseInt(document.querySelector('input[name = "p6"]:checked').value);
+	    p7 = parseInt(document.querySelector('input[name = "p7"]:checked').value);
+	    p8 = parseInt(document.querySelector('input[name = "p8"]:checked').value);
+	    p9 = parseInt(document.querySelector('input[name = "p9"]:checked').value);
+	    p10 = parseInt(document.querySelector('input[name = "p10"]:checked').value);
+	    p11 = parseInt(document.querySelector('input[name = "p11"]:checked').value);
+	    p12 = parseInt(document.querySelector('input[name = "p12"]:checked').value);
+	    p13 = parseInt(document.querySelector('input[name = "p13"]:checked').value);
+	    p14 = parseInt(document.querySelector('input[name = "p14"]:checked').value);
+	    p15 = parseInt(document.querySelector('input[name = "p15"]:checked').value);
+	    p16 = parseInt(document.querySelector('input[name = "p16"]:checked').value);
+	    p17 = parseInt(document.querySelector('input[name = "p17"]:checked').value);
+	    p18 = parseInt(document.querySelector('input[name = "p18"]:checked').value);
+	    p19 = parseInt(document.querySelector('input[name = "p19"]:checked').value);
+	    p20 = parseInt(document.querySelector('input[name = "p20"]:checked').value);
+	    p21 = parseInt(document.querySelector('input[name = "p21"]:checked').value);
+	    p22 = parseInt(document.querySelector('input[name = "p22"]:checked').value);
+	    p23 = parseInt(document.querySelector('input[name = "p23"]:checked').value);
+	    p24 = parseInt(document.querySelector('input[name = "p24"]:checked').value);
+	    p26 = parseInt(document.querySelector('input[name = "p26"]:checked').value);
+	    p28 = parseInt(document.querySelector('input[name = "p28"]:checked').value);
+	    p29 = parseInt(document.querySelector('input[name = "p29"]:checked').value);
+	    p30 = parseInt(document.querySelector('input[name = "p30"]:checked').value);
+	    p31 = parseInt(document.querySelector('input[name = "p31"]:checked').value);
+	    p32 = parseInt(document.querySelector('input[name = "p32"]:checked').value);
+	    p33 = parseInt(document.querySelector('input[name = "p33"]:checked').value);
+	    p34 = parseInt(document.querySelector('input[name = "p34"]:checked').value);
+	    p36 = parseInt(document.querySelector('input[name = "p36"]:checked').value);
+
+
+
+	   result = (p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8 + p9 + p10 + p11 + p12 + p13 + p14 + p15 + p16 + p17 + p18 + p19 + p20 + p21 + p22 + p23 + p24 + p26 + p28 + p29 + p30 + p31 + p32 + p33 + p34 + p36)/33;
+
+
+
+	document.getElementById("grade").innerHTML = result;
+
+ grading = [
+	   {score:00/33,feedback:"0 aciertos obtenidos. INSUFICIENTE"},
+	   {score:10/33,feedback:"1 acierto obtenido. INSUFICIENTE"},
+	   {score:20/33,feedback:"2 aciertos obtenidos. INSUFICIENTE"},
+	   {score:30/33,feedback:"3 aciertos obtenidos. INSUFICIENTE"},
+	   {score:40/33,feedback:"4 aciertos obtenidos. INSUFICIENTE"},
+	   {score:50/33,feedback:"5 aciertos obtenidos. INSUFICIENTE"},
+	   {score:60/33,feedback:"6 aciertos obtenidos. INSUFICIENTE"},
+	   {score:70/33,feedback:"7 aciertos obtenidos. INSUFICIENTE"},
+	   {score:80/33,feedback:"8 aciertos obtenidos. INSUFICIENTE"},
+	   {score:90/33,feedback:"9 aciertos obtenidos. INSUFICIENTE"},
+	   {score:100/33,feedback:"10 aciertos obtenidos. INSUFICIENTE"},
+	   {score:110/33,feedback:"11 aciertos obtenidos. INSUFICIENTE"},
+	   {score:120/33,feedback:"12 aciertos obtenidos. INSUFICIENTE"},
+	   {score:130/33,feedback:"13 aciertos obtenidos. INSUFICIENTE"},
+	   {score:140/33,feedback:"14 aciertos obtenidos. INSUFICIENTE"},
+	   {score:150/33,feedback:"15 aciertos obtenidos. INSUFICIENTE"},
+	   {score:160/33,feedback:"16 aciertos obtenidos. INSUFICIENTE"},
+	   {score:170/33,feedback:"17 aciertos obtenidos. INSUFICIENTE"},
+	   {score:180/33,feedback:"18 aciertos obtenidos. INSUFICIENTE"},
+	   {score:190/33,feedback:"19 aciertos obtenidos. SUFICIENTE"},
+	   {score:200/33,feedback:"20 aciertos obtenidos. SUFICIENTE"},
+	   {score:210/33,feedback:"21 aciertos obtenidos. SUFICIENTE"},
+	   {score:220/33,feedback:"22 aciertos obtenidos. REGULAR"},
+	   {score:230/33,feedback:"23 aciertos obtenidos. REGULAR"},
+	   {score:240/33,feedback:"24 aciertos obtenidos. REGULAR"},
+	   {score:250/33,feedback:"25 aciertos obtenidos. BIEN"},
+	   {score:260/33,feedback:"26 aciertos obtenidos. BIEN"},
+	   {score:270/33,feedback:"27 aciertos obtenidos. BIEN"},
+	   {score:280/33,feedback:"28 aciertos obtenidos. BIEN"},
+	   {score:290/33,feedback:"29 aciertos obtenidos. MUY BIEN"},
+	   {score:300/33,feedback:"30 aciertos obtenidos. MUY BIEN"},
+	   {score:310/33,feedback:"31 aciertos obtenidos. MUY BIEN"},
+	   {score:320/33,feedback:"32 aciertos obtenidos. EXCELENTE"},
+	   {score:330/33,feedback:"33 aciertos obtenidos. EXCELENTE"}
+	   ];
+
+
+
+
+for(i=0; i<grading.length; i++) {
+    if(result == grading[i].score) {
+    result2 = grading[i].feedback + "<br /> <br /> Respuestas Correctas: <br /> <br /> 1: Todas las ondas transportan energía. La opción correcta es el inciso d). <br /> <br />  2: Las ondas transversales se propagan sólo a través de sólidos y materiales semisólidos. La opción correcta es la del inciso b). <br /> <br />  3: En las ondas transversales, las partículas del medio se mueven de manera perpendicular a la velocidad de la onda. La opción correcta es el inciso d). <br /> <br />  4: Las ondas de agua son ondas mecánicas tanto transversales como longitudinales, como lo indica el inciso c). <br /> <br />  5: El sonido audible se encuentra en un intervalo de frecuencias que va desde 20 Hz y 20 000 Hz, aproximadamente. La frecuencia de 100 Hz se encuentra dentro de este intervalo, como se indica en el inciso b). <br /> <br />  6: Las ondas sonoras o de sonido son ondas longitudinales. La respuesta correcta es el inciso a). <br /> <br />  7: Las ondas de radio son ondas electromagnéticas, que se desplazan a la velocidad de la luz. El inciso c) es la respuesta correcta. <br /> <br />  8: Las ondas de sonido viajan más rápido en los sólidos que en los líquidos. Para determinar la velocidad del sonido en un sólido empleamos la fórmula v = (Y/ds)<sup>1/2</sup> y para el líquido se emplea la fórmula v = (B/dl)<sup>1/2</sup>, donde Y corresponde al módulo de Young del sólido, B el módulo volumétrico del líquido, ds la densidad del sólido y dl la densidad del líquido. El inciso d) es la opción correcta. <br /> <br />  9: El valor de la energía de la propagación de las ondas es directamente proporcional al cuadrado de la amplitud. Por lo que amplitudes mayores están relacionadas con mayor energía. El inciso d) es la opción correcta. <br /> <br />  10: El nivel de intensidad β de una onda sonora de intensidad I se define como: β = 10log(I/I0) donde la intensidad de referencia es I0=10<sup>-12</sup> W/m<sup>2</sup>. La unidad de β es el decibel (dB). Si I1 es la intensidad de la banda de rock y I2 es la intensidad de la conversación normal entonces I1/I2 = 10<sup>7</sup> = 10 000 000. El inciso e) es la respuesta correcta. <br /> <br />  11: Los ecos son producidos debido a la reflexión de las ondas, como se indica en el inciso a). <br /> <br />  12: El efecto Doppler produce un cambio o variación de las frecuencias de las ondas. La respuesta correcta está en el inciso b). <br /> <br />  13: Los radares operan bajo el principio físico de reflexión de las ondas y el efecto Doppler, como se indica en el inciso d). <br /> <br />  14: Falso. Pues la morfología de una onda consiste de la velocidad, longitud de onda y amplitud. La frecuencia o el periodo también pueden ser especificados como parte de la morfología de una onda. <br /> <br />  15: Las características fundamentales de la morfología de una onda son: velocidad, longitud de onda y amplitud. Por lo que la opción correcta es el inciso d). <br /> <br />  16: Falso. Pues las ondas mecánicas requieren un medio para viajar. <br /> <br />  17: El término amplitud se refiere a la distancia vertical del punto medio a la cresta (o valle) de la onda. Por lo que la opción correcta es el inciso c). <br /> <br />  18: La longitud de onda es la distancia entre puntos idénticos sucesivos de una onda. Por lo que el inciso a) es la opción correcta. <br /> <br />  19: La frecuencia indica el número de ciclos que se repite una onda por unidad de tiempo, o por segundo. Por lo que la opción correcta es el inciso e). <br /> <br />  20: El producto de la frecuencia, por la longitud de onda es igual a la velocidad de la onda, como se indica en el inciso b). <br /> <br />  21: El periodo es inversamente proporcional a la frecuencia, por lo que si aumenta el triple el valor de la frecuencia, entonces disminuye a un tercio el valor del periodo, la respuesta correcta es el inciso e). <br /> <br />  22: El periodo es igual al inverso de la frecuencia: periodo = 1/frecuencia = 1 / 0.1 Hz = 1 /(0.1  1/s) = 10 s. La respuesta correcta es el inciso c). <br /> <br />  23: Asumimos que el movimiento del tren se compara con el movimiento de una onda cuya longitud de onda es de 10 m y cuya frecuencia es de 2 Hz. Entonces: velocidad de la onda = frecuencia X longitud de onda = (2 Hz)(10 m) = 20 m/s. La opción correcta es el inciso d). <br /> <br />  24: La velocidad está dada por: velocidad de la onda = longitud de la onda / periodo de oscilación = longitud de onda X frecuencia. Sustituyendo valores tenemos: velocidad = (2m)(3 Hz) = 6 m/s, por lo que la opción correcta es el inciso b). <br /> <br />  25: La velocidad está dada por: velocidad = (frecuencia)(longitud de onda). Sustituyendo valores tenemos: velocidad = (420 Hz)(30 cm) = (420 Hz)(0.3 m) = 126 m/s, por lo que la opción correcta es el inciso b). <br /> <br />  26: La longitud de onda está dada por: longitud de onda = velocidad / frecuencia = (60 m/s)/(400 Hz) = 0.15 m, por lo que el inciso a) es la respuesta correcta. <br /> <br />  27: La frecuencia de esta onda es de 2 Hz. La velocidad de una onda es igual a velocidad = (frecuencia)(longitud de onda). Sustituyendo valores tenemos velocidad = (2 Hz)(1.5 m) = 3 m/s, por lo que es el inciso e) la opción correcta. <br /> <br />  28: La longitud de onda de esta onda sonora es de 1 m, ya que la longitud de onda es igual a: longitud de onda = (velocidad)/(frecuencia) = (340 m/s)/(340 HZ) = 1 m. Por tanto la opción correcta está en el inciso b). <br /> <br />  29: Verdadero. Esto se debe a que cuando el borde de entrada de la pulsación alcanza la pared, la cuerda se levanta por encima del punto de unión de la cuerda. De acuerdo a la tercera ley de Newton, la pared empuja hacia abajo con igual fuerza y sentido contrario. La cuerda se mueve hacia abajo para formar la pulsación invertida. <br /> <br />  30: Verdadero. Pues en este caso, diferente al del ejercicio anterior, la cuerda no está sujeta a restricción vertical alguna por ninguna pared; por tanto, la pulsación reflejada no será invertida. <br /> <br />  31: Cuando las ondas generadas por fuentes distintas llegan a un punto específico al mismo tiempo se producen patrones de interferencia como el mostrado en la figura. La opción correcta es el inciso d). <br /> <br />  32: Es una consecuencia del principio de superposición, el cual indica que cuando dos o más ondas existen simultáneamente en el mismo medio, el desplazamiento resultante en cualquier punto y en cualquier instante es la suma algebraica de los desplazamientos de cada onda. La opción correcta es el inciso c). <br /> <br />  33: Tres aplicaciones de los fenómenos ondulatorios acústicos son:  ultrasonido, sonar y microscopio acústico. La opción correcta es el inciso c). ";
+	  }
+	  }
+
+
+
+
+ document.getElementById("grade2").innerHTML = result2;
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+
+
+
+
+</script>
+
+
+</div>
+</body>
+</html>
+
+
+
